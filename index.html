@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Buscador de CEP</title>
+</head>
+<body>
+    <main>
+        <div>
+            <h1>Buscador de CEP</h1>
+            <div>
+                <div>
+                    <input type="text" id="busca--input">
+                    <button id="busca--button" onclick="buscarCEP()">pesquisar</button>
+                </div>
+                <small id="busca--error-message"></small>
+            </div>
+        </div>
+        <div class="desc">
+            <div class="desc-box">
+                <h2>Bairro</h2>
+                <p id="desc--bairro"></p>
+            </div>
+            <div class="desc-box">
+                <h2>Cidade</h2>
+                <p id="desc--cidade"></p>
+            </div>
+            <div class="desc-box">
+                <h2>Logradouro</h2>
+                <p id="desc--logradouro"></p>
+            </div>
+            <div class="desc-box">
+                <h2>CEP</h2>
+                <p id="desc--cep"></p>
+            </div>
+            <div class="desc-box">
+                <h2>Estado</h2>
+                <p id="desc--estado"></p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>coded with love by <a href="https://github.com/gabristle">gabristle</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

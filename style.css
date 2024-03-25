@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Bitxmap;
+    src: url(fonts/bitxmap.ttf);
+ }
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Bitxmap;
+    flex-direction: column;
+    background-color: darkolivegreen;
+    height: 100vh;
+}
+
+main{
+    background-color: rgb(166, 180, 142);
+    color: rgb(54, 68, 30);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 50%;
+    border: double 5px rgb(54, 68, 30);
+}
+
+input{
+    font-family: Bitxmap;
+    border: solid 1px rgb(54, 68, 30);
+    border-radius: 3px;
+}
+
+button{
+    font-family: Bitxmap;
+    background-color: rgb(54, 68, 30);
+    border: none;
+    padding: 3px;
+    border-radius: 3px;
+    color: rgb(166, 180, 142);
+}
+
+h1{
+    font-size: 24px;
+}
+
+h2{
+    text-align: center;
+    font-size: 16px;
+    border: double 5px rgb(54, 68, 30);
+}
+
+.desc-box{
+    border: double 5px rgb(54, 68, 30);
+    width: 60%;
+}
+
+.desc-box p{
+    padding: 3%;
+}
+
+.desc{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1%;
+    align-items: top;
+    padding: 5px;
+}
